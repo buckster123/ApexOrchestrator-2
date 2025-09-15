@@ -183,22 +183,22 @@ Assuming a fresh Raspberry Pi 5 (4GB/8GB recommended). We'll use Raspberry Pi OS
   ```
 - Requirements.txt sample (extract from script):
   ```
-  streamlit
-  openai
-  passlib
-  python-dotenv
-  ntplib
-  pygit2
-  requests
-  black
-  numpy
-  sentence-transformers
-  torch
-  jsbeautifier
-  pyyaml
-  sqlparse
-  beautifulsoup4
-  chromadb
+streamlit
+openai
+passlib
+python-dotenv
+ntplib
+pygit2
+requests
+black
+numpy
+sentence-transformers
+torch
+jsbeautifier
+pyyaml
+sqlparse
+beautifulsoup4
+chromadb
   ```
 
 ### Step 4: API Keys & Config
