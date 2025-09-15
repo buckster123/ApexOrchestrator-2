@@ -1,8 +1,5 @@
 # Apex Orchestrator 2: With Grok-Code Sidekick
 
-
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/apex-orchestrator?style=social)](https://github.com/buckster123/ApexOrchestrator-2/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/apex-orchestrator?style=social)](https://github.com/buckster123/ApexOrchestrator-2/fork)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![Powered by xAI](https://img.shields.io/badge/Powered%20by-xAI%20Grok-FF4500.svg)](https://x.ai/)
