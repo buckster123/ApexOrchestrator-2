@@ -149,7 +149,7 @@ Integration: All routed through ReAct; fallbacks (e.g., offload fail → local c
 Assuming a fresh Raspberry Pi 5 (4GB/8GB recommended). We'll use Raspberry Pi OS (64-bit) for optimal performance.
 
 ### Step 1: Hardware Prep
-- Insert/connect storage (16GB+ SD104 might do, but an nvme or fast usb 3 ssd is highly recommended, if not needed, for optimal performance) into Pi 5.
+- Insert/connect storage (16GB+ SD104 might do, but an nvme or fast usb-3 ssd is highly recommended, if not needed, for optimal performance).
 - Connect HDMI, keyboard, mouse, power (27W USB-C recommended for stability).
 - Boot up; follow on-screen setup (WiFi, locale).
 
@@ -208,13 +208,9 @@ Assuming a fresh Raspberry Pi 5 (4GB/8GB recommended). We'll use Raspberry Pi OS
 
 ### Step 5: Run Apex
 - Activate venv: `source .venv/bin/activate`
-- Launch: `streamlit run AOXCODER.py` (rename script to app.py)
+- Launch: `streamlit run AOXCODER.py` 
 - Access: http://<pi-ip>:8501 (find IP with `hostname -I`)
 
-Troubleshooting:
-- Pi overheating? Add heatsink/fan.
-- Memory errors? Use Grok-3 mini for lighter loads.
-- No UI? Ensure X11/VNC if headless.
 
 For clean OS tweaks: Overclock CPU to 2.7GHz via `raspi-config` for snappier ReAct cycles.
 
