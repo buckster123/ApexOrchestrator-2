@@ -447,7 +447,7 @@ TOOLS = [
             "parameters": {
                 "type": "object",
                 "properties": {
-                    "model": {"type": "string", "description": "xAI model to use (e.g., 'grok-4-code')."},
+                    "model": {"type": "string", "description": "xAI model to use (e.g., 'grok-code-fast')."},
                     "task": {"type": "object", "description": "Task details as dict (e.g., {'task': 'Write func X'})."},
                     "context": {"type": "string", "description": "Context snippet for the offload."}
                 },
