@@ -38,7 +38,7 @@ At its core, Apex simulates a multi-agent system using **ReAct (Reason + Act)**,
 
 Why "Agents For Everyone"? Apex runs on a Raspberry Pi 5 with minimal setup, making advanced AI accessible without cloud dependency or high-end GPUs. It's perfect for edge computing, home automation, personal projects, or even as a learning tool for AI enthusiasts. With built-in stability checks, error handling, and modularity, it's robust yet hackable – think of it as your personal JARVIS on a budget.
 
-Tech-nerdy flair: Apex leverages a stateful REPL for code execution, semantic memory via embeddings (Sentence Transformers + ChromaDB), and async offloading for heavy tasks. It's not just an app; it's a framework for experimenting with agentic AI.
+Apex leverages a stateful REPL for code execution, semantic memory via embeddings (Sentence Transformers + ChromaDB), and async offloading for heavy tasks. It's not just an app; it's a framework for experimenting with agentic AI.
 
 ## Key Features
 
