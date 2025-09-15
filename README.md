@@ -178,24 +178,24 @@ Assuming a fresh Raspberry Pi 5 (4GB/8GB recommended). We'll use Raspberry Pi OS
   source .venv/bin/activate
   pip install -r requirements.txt  # Assumes you create one with all pip installs from script
   ```
-- Requirements.txt sample (extract from script):
+- Requirements.txt sample (extract from script or use this. Install linters as needed.):
   ```
-streamlit
-openai
-passlib
-python-dotenv
-ntplib
-pygit2
-requests
-black
-numpy
-sentence-transformers
-torch
-jsbeautifier
-pyyaml
-sqlparse
-beautifulsoup4
-chromadb
+  streamlit
+  openai
+  passlib
+  python-dotenv
+  ntplib
+  pygit2
+  requests
+  black
+  numpy
+  sentence-transformers
+  torch
+  jsbeautifier
+  pyyaml
+  sqlparse
+  beautifulsoup4
+  chromadb
   ```
 
 ### Step 4: API Keys & Config
