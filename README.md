@@ -152,13 +152,13 @@ Integration: All routed through ReAct; fallbacks (e.g., offload fail → local c
 Assuming a fresh Raspberry Pi 5 (4GB/8GB recommended). We'll use Raspberry Pi OS (64-bit) for optimal performance.
 
 ### Step 1: Hardware Prep
-- Insert microSD (16GB+ Class 10) into Pi 5. (nvme or fast usb 3 ssd is highly recommended, if not needed, for optimal performance)
+- Insert/connect storage (16GB+ SD104 might do, but an nvme or fast usb 3 ssd is highly recommended, if not needed, for optimal performance) into Pi 5.
 - Connect HDMI, keyboard, mouse, power (27W USB-C recommended for stability).
 - Boot up; follow on-screen setup (WiFi, locale).
 
 ### Step 2: OS Install & Update
 - Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/), or boot to netinstall bootloader.
-- Flash Raspberry Pi OS Lite (64-bit) to Nvme/SSD/SD.
+- Flash Raspberry Pi OS Lite (64-bit) to Nvme/SSD/SD, or net install 64 Bit Bookworm Raspi Os Lite or Desktop.
 - Boot Pi.
 - Login (default: pi/raspberry).
 - Run:
