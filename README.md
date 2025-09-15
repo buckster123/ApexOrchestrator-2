@@ -9,7 +9,7 @@
 [![Raspberry Pi Compatible](https://img.shields.io/badge/Raspberry%20Pi-Pi%205-ff69b4.svg)](https://www.raspberrypi.com/products/raspberry-pi-5/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/buckster123/ApexOrchestrator-2/actions)
-[![Discord](https://img.shields.io/discord/1234567890?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/yourinvite)
+
 
 ![Apex Banner](https://github.com/buckster123/ApexOrchestrator-2/blob/main/apex-2.png) <!-- Replace with actual banner image URL -->
 
