@@ -66,27 +66,27 @@ Here's a Mermaid diagram of the core ReAct loop in Apex:
 
 ```mermaid
 flowchart TD
-    A[User Query] --> B[Task Initialization: Parse & Decompose]
-    B --> C[ToT Planning: Branch Plans & Prune]
-    C --> D[Subagent Simulation: ReAct Loops]
+    A["User Query"] --> B["Task Initialization: Parse & Decompose"]
+    B --> C["ToT Planning: Branch Plans & Prune"]
+    C --> D["Subagent Simulation: ReAct Loops"]
     subgraph Subagents
-        D --> E[Retriever: Gather Data]
-        D --> F[Reasoner: Analyze/Compute/Offload]
-        D --> G[Generator: Synthesize Artifacts]
-        D --> H[Validator: Verify (Optional)]
-        D --> I[Optimizer: Refine (Optional)]
+        D --> E["Retriever: Gather Data"]
+        D --> F["Reasoner: Analyze/Compute/Offload"]
+        D --> G["Generator: Synthesize Artifacts"]
+        D --> H["Validator: Verify (Optional)"]
+        D --> I["Optimizer: Refine (Optional)"]
     end
-    E --> J[Shared State: Memory Insert/Query]
+    E --> J["Shared State: Memory Insert/Query"]
     F --> J
     G --> J
     H --> J
     I --> J
-    J --> K[Aggregation: Merge Outputs & Reflect]
-    K --> L{Confidence >=0.7?}
-    L -->|Yes| M[Finalization: Polish & Output]
-    L -->|No| N[Iterate: Max 5 Cycles]
+    J --> K["Aggregation: Merge Outputs & Reflect"]
+    K --> L{"Confidence >=0.7?"}
+    L -->|Yes| M["Finalization: Polish & Output"]
+    L -->|No| N["Iterate: Max 5 Cycles"]
     N --> D
-    M --> O[Cleanup: Prune Memory]
+    M --> O["Cleanup: Prune Memory"]
 ```
 
 This loop ensures efficiency: Think (plan), Act (tools), Observe (results), Reflect (score/fix).
@@ -97,17 +97,17 @@ The backend script handles API calls, tool execution, and state:
 
 ```mermaid
 graph TD
-    A[Streamlit UI: Chat Input] --> B[Login/Register: SQLite Users]
-    B --> C[Load Prompt: From ./prompts/]
-    C --> D[Enable Tools?]
-    D -->|Yes| E[Tool Schema: FS, Memory, Code, etc.]
-    D -->|No| F[Direct Grok API Call]
-    E --> G[call_xai_api: Stream Response + Tool Handling]
-    G --> H[Batch Tools: Parallel Exec (e.g., fs_write + memory_insert)]
-    H --> I[Async Offload: xai_offload_code → sandbox/reports.json]
-    I --> J[Observe: Yield Results to UI]
-    J --> K[Save History: SQLite Messages]
-    K --> L[Cache/Prune: Tool Results & Memory]
+    A["Streamlit UI: Chat Input"] --> B["Login/Register: SQLite Users"]
+    B --> C["Load Prompt: From ./prompts/"]
+    C --> D["Enable Tools?"]
+    D -->|Yes| E["Tool Schema: FS, Memory, Code, etc."]
+    D -->|No| F["Direct Grok API Call"]
+    E --> G["call_xai_api: Stream Response + Tool Handling"]
+    G --> H["Batch Tools: Parallel Exec (e.g., fs_write + memory_insert)"]
+    H --> I["Async Offload: xai_offload_code → sandbox/reports.json"]
+    I --> J["Observe: Yield Results to UI"]
+    J --> K["Save History: SQLite Messages"]
+    K --> L["Cache/Prune: Tool Results & Memory"]
 ```
 
 Key: Async for offloads via asyncio; caching with TTL to optimize Pi resources.
