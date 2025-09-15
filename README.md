@@ -1,4 +1,4 @@
-# Apex Orchestrator 2: Coder Sidekick
+# Apex Orchestrator 2: With Grok-Code Sidekick
 
 
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/apex-orchestrator?style=social)](https://github.com/buckster123/ApexOrchestrator-2/stargazers)
