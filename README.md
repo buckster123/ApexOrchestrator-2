@@ -1,6 +1,5 @@
 # Apex Orchestrator
 
-![Apex Banner](https://via.placeholder.com/1200x300.png?text=Apex+Orchestrator:+Agents+For+Everyone) <!-- Replace with actual banner image URL -->
 
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/apex-orchestrator?style=social)](https://github.com/buckster123/ApexOrchestrator-2/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/yourusername/apex-orchestrator?style=social)](https://github.com/buckster123/ApexOrchestrator-2/fork)
@@ -11,6 +10,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/buckster123/ApexOrchestrator-2/actions)
 [![Discord](https://img.shields.io/discord/1234567890?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/yourinvite)
+
+![Apex Banner](https://github.com/buckster123/ApexOrchestrator-2/blob/main/apex-2.png) <!-- Replace with actual banner image URL -->
 
 **Agents For Everyone** – Empowering hobbyists, tinkerers, and tech enthusiasts to build and deploy autonomous AI agents on affordable hardware like the Raspberry Pi 5. Apex Orchestrator is your DIY gateway to modular, tool-empowered AI workflows, blending ReAct reasoning with xAI's Grok models for efficient, sandboxed task execution.
 
